@@ -1,8 +1,6 @@
 # Lightweight framework to develop kony java services
 
-I have written a simple framework on top of 'kony java service' framework to make it easy to use java services.
-
-
+I have written a simple framework on top of 'kony java service' framework to make it easy to use java services. 
 please refer 
 
 1) https://www.kony.com/ to know about kony 
