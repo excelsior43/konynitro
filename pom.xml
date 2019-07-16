@@ -28,7 +28,6 @@
 
 
   <dependencies>
-  <!--  for BaseUnCheckedException class -->
       	<dependency>
 			<groupId>com.kony.middleware</groupId>
 			<artifactId>middleware-api</artifactId>
