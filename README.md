@@ -46,5 +46,6 @@ public class SomeMyKonyService extends NitroService
         return result
      }
    }
+   
    '''
  
