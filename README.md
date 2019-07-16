@@ -1,6 +1,7 @@
-# konynitro
+# Lightweight framework to develop kony java services
 
 I have written a simple framework on top of 'kony java service' framework to make it easy to use java services.
+please refer https://www.kony.com/ to know about kony java services developed for kony mobile fabric 8.4
 
 
 USAGE: 
