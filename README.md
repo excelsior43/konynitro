@@ -31,7 +31,6 @@ public class SomeMyKonyService extends NitroService
         return result
      }
    }
-   
    @NitroServiceMethod("OperationIDOfMyServiceDefinedInMobileFabric2")
    public Result myOperation2(
       @NitroParameter("param1") String someParam1,
