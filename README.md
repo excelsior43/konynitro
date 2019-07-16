@@ -14,13 +14,28 @@ USAGE:
 ```java
 public class SomeMyKonyService extends NitroService
 {
-   private final static Logger logger = Logger.getLogger(SomeMyKonyService.class);
- 
-
    @NitroServiceMethod("OperationIDOfMyServiceDefinedInMobileFabric")
-   public Result myService(
+   public Result myOperation1(
       @NitroParameter("param1") String someParam1,
       @NitroParameter("param2") String someParam2,
+      ) 
+      throws Throwable
+     {
+      Result result = new Result();
+        /**
+        ** process and load result with some business logic
+        **/
+        return result
+     }
+   }
+   
+   @NitroServiceMethod("OperationIDOfMyServiceDefinedInMobileFabric2")
+   public Result myOperation2(
+      @NitroParameter("param1") String someParam1,
+      @NitroParameter("param2") String someParam2,
+      @NitroParameter("param3") String someParam3,
+      @NitroParameter("param4") String someParam4,
+      @NitroParameter("param5") String someParam5,
       ) 
       throws Throwable
      {
