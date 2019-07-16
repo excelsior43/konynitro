@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.my.kony</groupId>
+  <artifactId>konynitro</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>konynitro</name>
+  <url>http://maven.apache.org</url>
+
+<build>
+	<plugins>
+		<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.6</source>
+						<target>1.6</target>
+					</configuration>
+		</plugin>
+	</plugins>
+</build>
+
+  <properties>
+		<kony.version>8.4.1.1</kony.version>
+	</properties>
+
+
+  <dependencies>
+  <!--  for BaseUnCheckedException class -->
+      	<dependency>
+			<groupId>com.kony.middleware</groupId>
+			<artifactId>middleware-api</artifactId>
+			<version>${kony.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+		 <groupId>org.springframework</groupId>
+  		<artifactId>spring-beans</artifactId>
+  		 <version>2.0.6</version>
+  		
+		</dependency>
+		<dependency>
+		 <groupId>org.springframework</groupId>
+  		<artifactId>spring-context</artifactId>
+  		 <version>2.0.6</version>
+  		</dependency>
+			<!-- changes for logback BEGIN -->
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>log4j-over-slf4j</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+		<!-- changes for logback END --> 
+		
+  </dependencies>
+</project>
