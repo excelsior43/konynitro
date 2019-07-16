@@ -38,7 +38,7 @@ public class SomeMyKonyService extends NitroService
       @NitroParameter("param2") String someParam2,
       @NitroParameter("param3") String someParam3,
       @NitroParameter("param4") String someParam4,
-      @NitroParameter("param5") String someParam5,
+      @NitroParameter("param5") String someParam5
       ) 
       throws Throwable
      {
