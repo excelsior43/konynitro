@@ -35,7 +35,7 @@
 			<version>${kony.version}</version>
 			<scope>provided</scope>
 		</dependency>
-		<!-- changes for logback BEGIN -->
+  <!-- changes for logging BEGIN -->
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -52,7 +52,7 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>1.6.1</version>
 		</dependency>
-		<!-- changes for logback END --> 
+<!-- changes for logging END -->
 		
   </dependencies>
 </project>
