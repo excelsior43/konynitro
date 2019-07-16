@@ -19,8 +19,9 @@ public class SomeMyKonyService extends NitroService
       throws Throwable
      {
       Result result = new Result();
-        // do your stuff here
-        // process and load result with some business logic
+        /**
+        ** process and load result with some business logic
+        **/
         return result
      }
    }
